@@ -116,7 +116,6 @@ header section .signe-bas img {
     margin-bottom: 40px;
 }
 
-/* Media Queries pour iPad Pro, iPad Air et iPad Mini */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     header {
         height: auto;
@@ -172,7 +171,6 @@ header section .signe-bas img {
     }
 }
 
-/* Media Queries pour iPad Mini et autres appareils plus petits */
 @media screen and (max-width: 767px) {
     header {
         background-position: center;
@@ -823,7 +821,6 @@ section .tableau-pour-tel {
   
  
   
-  /* Style des offres annuelles */
   .tableau-pour-tel .annual-offer {
     margin-bottom: 20px;
     border-bottom: 1px solid #444;
@@ -833,17 +830,15 @@ section .tableau-pour-tel {
   
   .tableau-pour-tel .annual-offer:first-of-type {
     border-top: 4px solid white; /* Largeur et couleur du trait */
-    padding-top: 20px; /* Espace entre le trait et le contenu */
+    padding-top: 20px; /* Espace entre trait et contenu */
   }
   
-  /* Style du texte dans les offres annuelles */
   .tableau-pour-tel .annual-offer p {
     margin-bottom: 10px;
     font-size: 16px;
     color: #888;
   }
   
-  /* Style des prix annuels */
   .tableau-pour-tel .annual-prices {
     display: flex;
     justify-content: space-around;
