@@ -12,7 +12,7 @@
       <header>
         <nav>
             <div class="boutton">
-                <a href=""><button>S'IDENTIFIER</button></a>
+                <a href=""><button>SE CONNECTER</button></a>
             </div>
         </nav>
         <section>
@@ -45,9 +45,7 @@
             </div> 
         </section>
     </header>
-
 <main>
-
     <section class="presentation">
         <div class="conteneur">
             <h1><em><span class="line-break-1">Seulement sur </span>Disney+</em></h1> 
@@ -120,8 +118,8 @@
                 <p>Streaming sans publicité***</p>
                 <div class="annual-prices">
                     <div class="price-item">-</div>
-                    <div class="price-item"><img src="images/logo-valide-blanc.svg" width="15px" alt=""></div>
-                    <div class="price-item"><img src="images/logo-valide-blanc.svg" width="15px" alt=""></div>
+                    <div class="price-item"><img src="images/logo-valide-blanc.svg" width="30px" alt=""></div>
+                    <div class="price-item"><img src="images/logo-valide-blanc.svg" width="30px" alt=""></div>
                 </div>
             </div>
         </div>
@@ -179,8 +177,8 @@
                     <tr>
                         <td>Streaming sans publicité</td>
                         <td>-</td>
-                        <td><img src="images/logo-valide-blanc.svg" width="15px" alt=""></td>
-                        <td><img src="images/logo-valide-blanc.svg" width="15px" alt=""></td>
+                        <td><img src="images/logo-valide-blanc.svg" width="30px" alt=""></td>
+                        <td><img src="images/logo-valide-blanc.svg" width="30px" alt=""></td>
                     </tr>
                 </tbody>
             </table>
@@ -297,18 +295,15 @@
 document.querySelectorAll('.faq-item').forEach(item => {
     item.addEventListener('click', () => {
         // Si l'élément est déjà actif, on le désactive
-        if (item.classList.contains('active')) {
-            item.classList.remove('active');
+        if (item.classList.contains('active')) {     item.classList.remove('active');
             item.querySelector('.faq-toggle').textContent = '+';
             return;
         }
         // Fermer tous les autres éléments FAQ
-        document.querySelectorAll('.faq-item').forEach(i => {
-            i.classList.remove('active');
+        document.querySelectorAll('.faq-item').forEach(i => {     i.classList.remove('active');
             i.querySelector('.faq-toggle').textContent = '+';
         });
-        // Activer l'élément courant
-        item.classList.add('active');
+        // Activer l'élément courant    item.classList.add('active');
         item.querySelector('.faq-toggle').textContent = '-';
     });
 });
@@ -321,21 +316,21 @@ document.querySelectorAll('.faq-item').forEach(item => {
 
     <div class="conteneur">
         <div class="sous-conteneur">
-            <img src="images/logo-television.png" width="228px" alt="">
+            <img src="images/logo-television.png" width="448px" alt="">
             <h2>Télévisions</h2>
             <div class="groupe">
                 <p>Amazon Fire TV</p>
-                <p>Appareils Android TV</p>
+         <p>Appareils Android TV</p>
                 <p>Apple TV</p>
-                <p>Chromecast</p>
+           <p>Chromecast</p>
                 <p>TV LG</p>
-                <p>Roku</p>
+            <p>Roku</p>
                 <p>Samsung</p>
             </div>
         </div>
         
         <div class="sous-conteneur">
-            <img src="images/logo-ecran-ordinateur.png" width="228px" alt="">
+            <img src="images/logo-ecran-ordinateur.png" width="448px" alt="">
             <h2>Ordinateurs</h2>
             <div class="groupe">
                 <p>Chrome OS</p>
@@ -345,7 +340,7 @@ document.querySelectorAll('.faq-item').forEach(item => {
         </div>
         
         <div class="sous-conteneur">
-            <img src="images/logo-tablet.png" width="228px" alt="">
+            <img src="images/logo-tablet.png" width="448px" alt="">
             <h2>Mobiles et tablettes</h2>
             <div class="groupe">
                 <p>Tablettes Amazon Fire</p>
@@ -355,7 +350,7 @@ document.querySelectorAll('.faq-item').forEach(item => {
         </div>
         
         <div class="sous-conteneur">
-            <img src="images/logo-manette.png" width="228px" alt="">
+            <img src="images/logo-manette.png" width="448px" alt="">
             <h2>Consoles de jeux</h2>
             <div class="groupe">
                 <p>PS4</p>
