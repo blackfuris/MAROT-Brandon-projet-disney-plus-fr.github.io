@@ -661,40 +661,25 @@ main .tableau .container .note a {
 
     main .tableau .container th, 
     main .tableau .container td {
-        padding: 10px; 
-    }
-
+        padding: 10px;  }
     main .tableau .container th, 
     main .tableau .container td {
-        white-space: nowrap;
-    }
-
+        white-space: nowrap;  }
     main .tableau .container th:nth-child(4) button,
     main .tableau .container th:nth-child(3) button {
-        padding: 19px 20px;  
-    }
-
+        padding: 19px 20px;   }
     main .tableau .container th:nth-child(2) button {
         padding: 11px 20px; 
-        font-size: 14px; 
-    }
-
-
+        font-size: 14px;   }
     main .tableau .container {
         position: relative;
         overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-
+        -webkit-overflow-scrolling: touch; }
     main .tableau .container::-webkit-scrollbar {
-        height: 8px;
-    }
-
+        height: 8px; }
     main .tableau .container::-webkit-scrollbar-thumb {
         background-color: #888;
-        border-radius: 10px;
-    }
-
+        border-radius: 10px; }
     main .tableau .container::-webkit-scrollbar-thumb:hover {
         background-color: #555;
     }
@@ -716,11 +701,7 @@ main .tableau .container .note a {
 
 
 
-
-
-
-
- * {
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
